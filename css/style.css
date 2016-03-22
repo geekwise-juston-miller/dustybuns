@@ -25,7 +25,6 @@ body{
     height: 100%;
     display: block;
     background-image: url(http://i.imgur.com/hQMmxq5.jpg);
-    opacity: 1;
     visibility: inherit;
     background-color: rgba(0, 0, 0, 0);
     background-size: cover;
@@ -37,7 +36,7 @@ body{
     
 }
 
-.nav_for_all_pages{
+.nav_bar{
     margin: 0 auto;
     padding: 0;
     width:90%;
@@ -46,23 +45,20 @@ body{
     
 }
 
-.nav_ul{
+.nav_bar > ul{
     list-style: none;
     position: relative;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: auto;
-    display: block;
     
 }
 
->nav_ul > li{
+.nav_bar > ul > li{
     margin: 0 .7rem 0 0;
     display: inline-block;
 }
 
-a > li{
+a{
     color: #fff;
 }
 
