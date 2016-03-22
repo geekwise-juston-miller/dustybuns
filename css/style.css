@@ -46,17 +46,23 @@ body{
     
 }
 
-.nav{
+.nav_ul{
+    list-style: none;
+    position: relative;
     margin: 0;
     padding: 0;
     width: 100%;
     height: auto;
-    display: flex;
-    flex-flow: row wrap;
+    display: block;
     
 }
 
-.nav > a > li{
+>nav_ul > li{
+    margin: 0 .7rem 0 0;
+    display: inline-block;
+}
+
+a > li{
     color: #fff;
 }
 
