@@ -50,24 +50,64 @@ body{
     position: relative;
     margin: 0;
     padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
     
 }
 
 .nav_bar > ul > li{
-    margin: 0 .7rem 0 0;
-    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 15%;
+    height: 6rem;
+    text-align: center;
+    
 }
 
 a{
+    display: block;
+    padding: 0; 1rem;
+    font-size: 1.8rem;
+    line-height: 6rem;
+    text-decoration: none;
     color: #fff;
+    text-shadow: .2rem .2rem .2rem #000;
 }
 
+/* Background color change on Hover */
 
+a:hover{
+    background-color: #bccf3d;
+}
 
+/*  Hide Dropdowns  */
 
+.nav_bar > ul > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
 
+/* Display Dropdowns on Hover */
 
+.nav_bar > ul > li:hover > ul {
+    display:inherit;
+}
 
+/* Fisrt Tier Dropdown */
+.nav_bar > ul > ul > li {
+    min-width: 17rem;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+/*  added a "+" to the drop down */
+
+li > a:after { content:  "+"; }
+li > a:only-child:after { content: ""; }
 
 
 
