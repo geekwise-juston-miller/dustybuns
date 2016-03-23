@@ -2,7 +2,7 @@ html, body{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 1735px;
     font-size: 62.5%;
     box-sizing: border-box;
     
@@ -12,7 +12,7 @@ body{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     display:block;
     font-size: 1.6rem;
         
@@ -22,7 +22,7 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 1326px;
     max-height: 100%;
     display:block;
     background-image: url(http://i.imgur.com/hQMmxq5.jpg);
@@ -36,7 +36,7 @@ header{
 .nav_container{
     display: block;
     width: 100%;
-    height: 20%;
+    height: 10%;
     margin: 0 auto;
     padding: 0;
 }
@@ -65,7 +65,7 @@ header{
 .nav_bar > ul > li{
     margin: 0 auto;
     padding: 0;
-    width: 15%;
+    width: 12%;
     height: 6rem;
     text-align: center;
     
@@ -198,12 +198,15 @@ main{
 .nav_bar_logo{
     font-size: 4.5rem;
     font-family: cursive;
-    margin: 2rem 2rem auto;
+    font-style: italic;
+    margin: 1rem 1rem auto;
     padding: 0;
+    width: 100%;
+    height: auto;
     
 }
 
-.middle{
+.middle_top{
     display: block;
     margin: 0;
     padding: 0;
@@ -211,10 +214,6 @@ main{
     height: 60rem;
 }
 
-.top{
-    
-    
-}
 
 .intro{
     display: flex;
@@ -226,6 +225,67 @@ main{
     width: 100%;
     height: 80%;
 }
+
+.intro > h1{
+    font-size: 5rem;
+    color: ffc300;
+    font-family: cursive;
+    font-style: italic;
+    
+}
+
+.intro > span > img{
+    display: block;
+    margin:  -2rem 0 5rem 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    
+}
+
+.intro > p{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: auto;
+    font-size: 2rem;
+    line-height: 4rem;
+    color: #676257;
+    font-family:sans-serif;
+    font-style:normal;
+    text-align-last: center;
+    
+}
+
+
+.mid_middle{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    display:block;
+    background-image: url(http://i.imgur.com/5egD3wK.jpg);
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
