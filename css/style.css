@@ -263,7 +263,7 @@ main{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 132rem;
+    height: 1326px;
     display:block;
     background-image: url(http://i.imgur.com/5egD3wK.jpg);
     background-color: rgba(0, 0, 0, 0);
@@ -277,31 +277,150 @@ main{
     display: block;
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    width: 1170px;
     height: 1040px;
     
 }
 
 .box1{
-    
-    
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 585px;
+    height: 520px;
+    float: left;
+    background-color:#bccf3d;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem #000;
+}
+
+.box1 div:nth-of-type(1){
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.box1 > div:nth-of-type(2){
+    display: block;
+    margin: 0 auto;
+    padding: 5rem 0 0;
+    width: 50%;
+    height: 100%;
+    float:left;
+    text-align: center;
+    line-height: 4rem;
+
 }
 
 .box2{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 585px;
+    height: 520px;
+    float: left;
+    background-color:#ffc300;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem #000;
+
+}
+
+.box2 > div:nth-of-type(1){
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    float: left;
+    overflow: hidden;
     
+}
+
+.box2 > div:nth-of-type(2){
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    float: left;
+    overflow: hidden;
     
 }
 
 .box3{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 585px;
+    height: 520px;
+    float: left;
+    background-color:#bccf3d;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem #000;
     
+}
+
+.box3:nth-of-type(1){
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.box3:nth-of-type(2){
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
     
 }
 
 .box4{
-    
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 585px;
+    height: 520px;
+    float: left;
+    background-color:#ffc300;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem #000;
     
 }
 
+
+.box4:nth-of-type(1){
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.box4:nth-of-type(2){
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    
+}
 
 
 
