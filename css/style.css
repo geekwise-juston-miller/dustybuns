@@ -95,7 +95,7 @@ a{
 
 /* Background color change on Hover */
 
-li:hover{
+.nav_bar > ul > li:hover{
     background-color: #bccf3d;
 }
 
@@ -182,7 +182,7 @@ main{
     display: block;
     margin: 0 auto;
     padding: 0;
-    height: 80%;
+    height: 90%;
     width: 100%;
     
 }
@@ -211,7 +211,7 @@ main{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 40%;
 }
 
 
@@ -227,7 +227,7 @@ main{
 }
 
 .intro > h1{
-    font-size: 5rem;
+    font-size: 6.5rem;
     color: ffc300;
     font-family: cursive;
     font-style: italic;
@@ -239,7 +239,7 @@ main{
     margin:  -2rem 0 5rem 0;
     padding: 0;
     height: auto;
-    width: auto;
+    width: 100%;
     
 }
 
@@ -249,7 +249,7 @@ main{
     padding: 0;
     width: 80%;
     height: auto;
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 4rem;
     color: #676257;
     font-family:sans-serif;
@@ -263,16 +263,44 @@ main{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 50%;
+    height: 132rem;
     display:block;
     background-image: url(http://i.imgur.com/5egD3wK.jpg);
     background-color: rgba(0, 0, 0, 0);
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    
+    background-size: 1339px 770px;
     
 } 
+
+.location_boxs{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 1040px;
+    
+}
+
+.box1{
+    
+    
+}
+
+.box2{
+    
+    
+}
+
+.box3{
+    
+    
+}
+
+.box4{
+    
+    
+}
 
 
 
