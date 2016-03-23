@@ -343,7 +343,7 @@ main{
     margin: 0 auto;
     padding: 2rem 0 0 0;
     width: 50%;
-    height: 80%;
+    height: 70%;
     float: left;
     text-align: center;
 
@@ -466,11 +466,24 @@ main{
 }
 
 footer{
-    
-    
+    height: 195px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+        
 }
 
-
+.outtro{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("img/bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 
 
