@@ -64,7 +64,7 @@ header{
 .nav_bar > ul > li{
     margin: 0 auto;
     padding: 0;
-    width: 12%;
+    width: 15%;
     height: 6rem;
     text-align: center;
     
@@ -73,18 +73,20 @@ header{
 .nav_bar > ul > ul > li{
     margin: 0 auto;
     padding: 0;
-    width: 12%;
+    width: 20%;
     height: 6rem;
     left: -17rem;
     text-align: center;
-    
+    background-color: #bccf3d;
+    display: block;
+    border-radius: 1rem;
 }
 
 .nav_bar > ul > li > a{
     display: block;
     padding: 0;
     margin: 0 auto;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 6rem;
     text-decoration: none;
     color: #fff;
@@ -96,7 +98,9 @@ header{
 
 .nav_bar > ul > li:hover{
     background-color: #bccf3d;
+    border-radius: 1rem;
 }
+
 
 /*  Hide Dropdowns  */
 
@@ -114,17 +118,31 @@ header{
 .nav_bar > ul > li:hover + ul{
     display: block;
     position: absolute;
+    
 }
 
-/* Fisrt Tier Dropdown */
+/*     Nav  Dropdown     */
 
 .nav_bar > ul > ul > li{
     min-width: 17rem;
     float: none;
     display: list-item;
     position: relative;
+    
 }
 
+.nav_bar > ul > ul > li > a{
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 6rem;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: .2rem .2rem .2rem #000;
+    font-family: "Muli", sans-serif;
+    
+}
 
 /*   end nav bar section   */
 
