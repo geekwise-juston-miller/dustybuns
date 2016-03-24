@@ -1,8 +1,8 @@
 html, body{
     margin: 0 auto;
     padding: 0;
-    width: 100%;
-    height: 1735px;
+    width: 1349px
+    height: 2339px;
     font-size: 62.5%;
     box-sizing: border-box;
     
@@ -23,7 +23,6 @@ header{
     padding: 0;
     width: 100%;
     height: 735px;
-    max-height: 735px;
     display:block;
     background-image: url(http://i.imgur.com/hQMmxq5.jpg);
     visibility: inherit;
@@ -174,7 +173,7 @@ main{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 1735px;
+    height: 1620px;
     
 }
 
@@ -182,7 +181,7 @@ main{
     display: block;
     margin: 0 auto;
     padding: 0;
-    height: 90%;
+    height: 100%;
     width: 100%;
     
 }
@@ -223,7 +222,7 @@ main{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 .intro > h1{
@@ -269,7 +268,7 @@ main{
     background-color: rgba(0, 0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1920px 800px;
+    background-size: 1349px 800px;
     
 } 
 
@@ -292,6 +291,8 @@ main{
     float: left;
     background-color:#bccf3d;
     color: #fff;
+    text-decoration: none;
+
 }
 
 .box1 div:nth-of-type(1){
@@ -332,6 +333,8 @@ main{
     float: left;
     background-color:#ffc300;
     color: #fff;
+    text-decoration: none;
+
 
 }
 
@@ -349,13 +352,8 @@ main{
     margin: 0 auto;
     padding: 3rem 0 0;
     width: 50%;
-<<<<<<< HEAD
-    height: 70%;
-    float: left;
-=======
     height: 80%;
     float:left;
->>>>>>> refs/remotes/origin/master
     text-align: center;
     line-height: 4rem;
     text-shadow: .2rem .2rem .2rem #000;
@@ -413,21 +411,11 @@ main{
     width: 585px;
     height: 520px;
     float: left;
-    background-color:#bccf3d;
+    background-color:#ffc300;
     color: #fff;
     text-shadow: .2rem .2rem .2rem #000;
-    
-}
+    text-decoration: none;
 
-.box3:nth-of-type(1){
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    
 }
 
 
@@ -438,9 +426,11 @@ main{
     width: 585px;
     height: 520px;
     float: left;
-    background-color:#ffc300;
+    background-color:#bccf3d;
     color: #fff;
     text-shadow: .2rem .2rem .2rem #000;
+    text-decoration: none;
+
     
 }
 
@@ -458,12 +448,12 @@ main{
 .box4 > div:nth-of-type(2){
     display: block;
     margin: 0 auto;
-    padding: 2rem 0 0;
+    padding: 3rem 0 0;
     width: 50%;
     height: 100%;
     float:left;
     text-align: center;
-    line-height: 4rem;
+    line-height: 5rem;
 
 }
 
@@ -484,32 +474,79 @@ main{
     padding: 0;
     width: 100%;
     height: 100%;
+    line-height: 4rem;
     
 }
 
+.media > ul > li{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: calc(100%/3);
+    height: 100%;
+    float: left;
+    text-align: center;
+}
 
+.media > ul > li > span{
+    font-size: 2.5rem;
+    
+}
+
+.media > ul > li > a{
+    font-size: 2rem;
+}
+
+.media > ul > li > i{
+    font-size: 2.5rem
+}
 
 footer{
     height: 195px;
     width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding: 7rem 0 0 0;
     display: block;
-        
-}
-
-.outtro{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url("img/bg-footer.jpg");
+    background-image:url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
+    opacity: .5;
+    background-size:cover;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    line-height: 4rem;
+    
     
 }
 
+.outtro{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 20%;
+    float: left;
+    font-size: 1.8rem;
+    color: goldenrod;
+}
 
+.outtro > a{
+    font-size: 4rem;
+    font-style: oblique;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.footer_text{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 70%;
+    float: left;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
 
 
 
