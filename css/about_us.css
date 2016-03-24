@@ -1,7 +1,7 @@
 html, body{
     margin: 0 auto;
     padding: 0;
-    width: 1349px
+    width: 1349px;
     height: 2071px;
     font-size: 62.5%;
     box-sizing: border-box;
@@ -11,8 +11,8 @@ html, body{
 body{
     margin: 0 auto;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    width: 1349px;
+    height: 2071px;
     display:block;
     font-size: 1.6rem;
         
@@ -73,21 +73,22 @@ header{
 }
 
 .nav_container > div > a:hover{
-    opacity: .45;
     cursor: pointer;
-    transition: 1s fast;
+    transition: 1.5s ease-out;
 }
 
 .nav_bar{
     margin: 0 auto;
     padding: 0;
     width:80%;
-    height: auto;
+    height: 100%;
     display: block;
     
 }
 
 .nav_bar > ul{
+    width: 80%;
+    height: 100%;
     list-style: none;
     position: relative;
     margin: 0;
@@ -114,7 +115,7 @@ header{
     height: 6rem;
     left: -17rem;
     text-align: center;
-    background-color: #bccf3d;
+    background-color: #fff;
     display: block;
     border-radius: 1rem;
 }
@@ -123,19 +124,20 @@ header{
     display: block;
     padding: 0;
     margin: 0 auto;
-    font-size: 1.7rem;
-    line-height: 6rem;
+    font-size: 1.6rem;
+    line-height: 7rem;
+    font-weight: bold;
     text-decoration: none;
-    color: #fff;
-    text-shadow: .2rem .2rem .2rem #000;
+    color: #000;
+/*    text-shadow: .2rem .2rem .2rem #000;*/
     font-family: "Muli", sans-serif;
 }
 
 /* Background color change on Hover */
 
-.nav_bar > ul > li:hover{
-    background-color: #bccf3d;
-    border-radius: 1rem;
+.nav_bar > ul > li > a:hover{
+    color: #bccf3d;
+    
 }
 
 
@@ -175,10 +177,26 @@ header{
     font-size: 1.4rem;
     line-height: 6rem;
     text-decoration: none;
-    color: #fff;
-    text-shadow: .2rem .2rem .2rem #000;
+    color: #000;
+/*    text-shadow: .2rem .2rem .2rem #000;*/
     font-family: "Muli", sans-serif;
     
+}
+
+.bg_img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 1335px;
+    height: 439px;
+    
+}
+
+.bg_img > img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 1335px;
 }
 
 /*   end nav bar section   */
