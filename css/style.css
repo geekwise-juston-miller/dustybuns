@@ -349,8 +349,13 @@ main{
     margin: 0 auto;
     padding: 3rem 0 0;
     width: 50%;
+<<<<<<< HEAD
+    height: 70%;
+    float: left;
+=======
     height: 80%;
     float:left;
+>>>>>>> refs/remotes/origin/master
     text-align: center;
     line-height: 4rem;
     text-shadow: .2rem .2rem .2rem #000;
@@ -485,11 +490,24 @@ main{
 
 
 footer{
-    
-    
+    height: 195px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+        
 }
 
-
+.outtro{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("img/bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 
 
