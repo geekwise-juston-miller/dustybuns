@@ -22,8 +22,8 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 50%;
-    max-height: 1325px;
+    height: 735px;
+    max-height: 735px;
     display:block;
     background-image: url(http://i.imgur.com/hQMmxq5.jpg);
     visibility: inherit;
@@ -81,7 +81,7 @@ header{
     
 }
 
-a{
+.nav_bar > ul > li > a{
     display: block;
     padding: 0;
     margin: 0 auto;
@@ -174,7 +174,7 @@ main{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 132rem;
+    height: 1735px;
     
 }
 
@@ -211,7 +211,7 @@ main{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 40%;
+    height: 500px;
 }
 
 
@@ -263,13 +263,13 @@ main{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 1326px;
+    height: 1000px;
     display:block;
     background-image: url(http://i.imgur.com/5egD3wK.jpg);
     background-color: rgba(0, 0, 0, 0);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1339px 770px;
+    background-size: 1920px 800px;
     
 } 
 
@@ -279,6 +279,7 @@ main{
     padding: 0;
     width: 1170px;
     height: 1040px;
+    font-size: 1.7rem;
     
 }
 
@@ -291,7 +292,6 @@ main{
     float: left;
     background-color:#bccf3d;
     color: #fff;
-    text-shadow: .2rem .2rem .2rem #000;
 }
 
 .box1 div:nth-of-type(1){
@@ -307,13 +307,20 @@ main{
 .box1 > div:nth-of-type(2){
     display: block;
     margin: 0 auto;
-    padding: 5rem 0 0;
+    padding: 3rem 0 0;
     width: 50%;
     height: 100%;
     float:left;
     text-align: center;
-    line-height: 4rem;
+    line-height: 5rem;
+    text-shadow: .2rem .2rem .2rem #000;
 
+}
+
+.style_font{
+    color: #fff;
+    text-decoration: none;
+    
 }
 
 .box2{
@@ -325,31 +332,33 @@ main{
     float: left;
     background-color:#ffc300;
     color: #fff;
+
+}
+
+.bx-a{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.bx-a > div:nth-of-type(1){
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0 0;
+    width: 50%;
+    height: 80%;
+    float:left;
+    text-align: center;
+    line-height: 4rem;
     text-shadow: .2rem .2rem .2rem #000;
 
 }
 
-.bx-A{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 50%;
-    
-}
 
-.bx-A > div:nth-of-type(1){
-    display: block;
-    margin: 0 auto;
-    padding: 2rem 0 0 0;
-    width: 50%;
-    height: 80%;
-    float: left;
-    text-align: center;
-
-}
-
-.bx-A > div:nth-of-type(2){
+.bx-a > div:nth-of-type(2){
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -357,9 +366,10 @@ main{
     height: 100%;
     float: left;
     overflow: hidden;
+    
 }
 
-.bx-B{
+.bx-b{
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -368,7 +378,7 @@ main{
     
 }
 
-.bx-B > div:nth-of-type(1){
+.bx-b > div:nth-of-type(1){
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -380,12 +390,12 @@ main{
 
 }
 
-.bx-B > div:nth-of-type(2){
+.bx-b > div:nth-of-type(2){
     display: block;
     margin: 0 auto;
-    padding: 0;
+    padding: 1.5rem 0 1rem 0;
     width: 50%;
-    height: 100%;
+    height: 90%;
     float: left;
     text-align: center;
 
@@ -430,7 +440,7 @@ main{
 }
 
 
-.box4:nth-of-type(1){
+.box4 > div:nth-of-type(1){
     display: block;
     margin: 0 auto;
     padding: 0;
@@ -438,18 +448,18 @@ main{
     height: 100%;
     float: left;
     overflow: hidden;
-    
 }
 
-.box4:nth-of-type(2){
+.box4 > div:nth-of-type(2){
     display: block;
     margin: 0 auto;
-    padding: 0;
+    padding: 2rem 0 0;
     width: 50%;
     height: 100%;
-    float: left;
-    overflow: hidden;
-    
+    float:left;
+    text-align: center;
+    line-height: 4rem;
+
 }
 
 .bottom_section{
@@ -458,12 +468,21 @@ main{
     padding: 0;
     width: 100%;
     height: 197px;
-    background-color:#fff;
-    color: #000;
-    text-shadow: .2rem .2rem .2rem #000;
-    
+    position: relative;
+    background-color:#fff;    
     
 }
+
+.media{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
 
 footer{
     
