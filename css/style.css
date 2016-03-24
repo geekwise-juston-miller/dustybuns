@@ -551,7 +551,7 @@ footer{
     font-size: 4rem;
     font-style: oblique;
     color: #FFFFFF;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .footer_text{
@@ -563,16 +563,5 @@ footer{
     float: left;
     font-size: 3.5rem;
     color: #FFFFFF;
-    font-weight: bolder;
+    font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
