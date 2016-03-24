@@ -22,7 +22,7 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 439px;
+    height: 90px;
     display:block;
     
 }
@@ -39,26 +39,55 @@ header{
 .nav_container{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 90px;
     margin: 0 auto;
     padding: 0;
-    background-image:url("http://dustybuns.com/wp-content/uploads/2015/03/B001B7sCEAAXdjE.jpg");
-/*    background-size: cover;*/
-    background-position:center;
-    background-repeat: no-repeat;
+    
+}
+
+.nav_container > div{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 8rem;
+    font-weight: 900;
+    font-family: cursive;
+    font-style: oblique;
+    
+}
+
+.nav_container > div > a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.nav_container > div > a:hover{
+    color:goldenrod;
+    
+}
+
+.nav_container > div > a:hover{
+    opacity: .45;
+    cursor: pointer;
+    transition: 1s fast;
 }
 
 .nav_bar{
     margin: 0 auto;
     padding: 0;
-    width:90%;
+    width:80%;
     height: auto;
     display: block;
     
 }
 
 .nav_bar > ul{
-    top: 3rem;
     list-style: none;
     position: relative;
     margin: 0;
@@ -154,44 +183,6 @@ header{
 
 /*   end nav bar section   */
 
-
-/*    text logo in header    */
-
-.top_section{
-    display: flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    height: 80%;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-.lrg_logo{
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    height: 50%;
-    width: 100%;   
-    color: #fff;
-   
-}
-
-.lrg_logo > h1{
-    font-family: cursive;
-    font-size: 6.5rem;
-    font-style: oblique;
-}
-
-.lrg_logo > h2{
-    font-family:sans-serif;
-    font-size: 3.5rem;
-}
-
-/*  end of header section  */
-
 /*  start of main section  */
 
 main{
@@ -203,329 +194,7 @@ main{
     
 }
 
-.mid_section{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    
-}
-
-.sm_logo{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 7rem;
-    
-}
-
-.nav_bar_logo{
-    font-size: 4.5rem;
-    font-family: cursive;
-    font-style: italic;
-    margin: 1rem 1rem auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    
-}
-
-.middle_top{
-    display: block;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 500px;
-}
-
-
-.intro{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.intro > h1{
-    font-size: 6.5rem;
-    color: ffc300;
-    font-family: cursive;
-    font-style: italic;
-    
-}
-
-.intro > span > img{
-    display: block;
-    margin:  -2rem 0 5rem 0;
-    padding: 0;
-    height: auto;
-    width: 100%;
-    
-}
-
-.intro > p{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 80%;
-    height: auto;
-    font-size: 1.6rem;
-    line-height: 4rem;
-    color: #676257;
-    font-family:sans-serif;
-    font-style:normal;
-    text-align-last: center;
-    
-}
-
-
-.mid_middle{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 1000px;
-    display:block;
-    background-image: url(http://i.imgur.com/5egD3wK.jpg);
-    background-color: rgba(0, 0, 0, 0);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1349px 800px;
-    
-} 
-
-.location_boxs{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 1170px;
-    height: 1040px;
-    font-size: 1.7rem;
-    
-}
-
-.box1{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 585px;
-    height: 520px;
-    float: left;
-    background-color:#bccf3d;
-    color: #fff;
-    text-decoration: none;
-
-}
-
-.box1 div:nth-of-type(1){
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-}
-
-.box1 > div:nth-of-type(2){
-    display: block;
-    margin: 0 auto;
-    padding: 3rem 0 0;
-    width: 50%;
-    height: 100%;
-    float:left;
-    text-align: center;
-    line-height: 5rem;
-    text-shadow: .2rem .2rem .2rem #000;
-
-}
-
-.style_font{
-    color: #fff;
-    text-decoration: none;
-    
-}
-
-.box2{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 585px;
-    height: 520px;
-    float: left;
-    background-color:#ffc300;
-    color: #fff;
-    text-decoration: none;
-
-
-}
-
-.bx-a{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 50%;
-    
-}
-
-.bx-a > div:nth-of-type(1){
-    display: block;
-    margin: 0 auto;
-    padding: 3rem 0 0;
-    width: 50%;
-    height: 80%;
-    float:left;
-    text-align: center;
-    line-height: 4rem;
-    text-shadow: .2rem .2rem .2rem #000;
-
-}
-
-
-.bx-a > div:nth-of-type(2){
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-    
-}
-
-.bx-b{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 50%;
-    
-}
-
-.bx-b > div:nth-of-type(1){
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    float: left;
-    text-align: center;
-    overflow: hidden;
-
-}
-
-.bx-b > div:nth-of-type(2){
-    display: block;
-    margin: 0 auto;
-    padding: 1.5rem 0 1rem 0;
-    width: 50%;
-    height: 90%;
-    float: left;
-    text-align: center;
-
-}
-
-.box3{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 585px;
-    height: 520px;
-    float: left;
-    background-color:#ffc300;
-    color: #fff;
-    text-shadow: .2rem .2rem .2rem #000;
-    text-decoration: none;
-
-}
-
-
-.box4{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 585px;
-    height: 520px;
-    float: left;
-    background-color:#bccf3d;
-    color: #fff;
-    text-shadow: .2rem .2rem .2rem #000;
-    text-decoration: none;
-
-    
-}
-
-
-.box4 > div:nth-of-type(1){
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 50%;
-    height: 100%;
-    float: left;
-    overflow: hidden;
-}
-
-.box4 > div:nth-of-type(2){
-    display: block;
-    margin: 0 auto;
-    padding: 3rem 0 0;
-    width: 50%;
-    height: 100%;
-    float:left;
-    text-align: center;
-    line-height: 5rem;
-
-}
-
-.bottom_section{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 197px;
-    position: relative;
-    background-color:#fff;    
-    
-}
-
-.media{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    line-height: 4rem;
-    
-}
-
-.media > ul > li{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    width: calc(100%/3);
-    height: 100%;
-    float: left;
-    text-align: center;
-}
-
-.media > ul > li > span{
-    font-size: 2.5rem;
-    
-}
-
-.media > ul > li > a{
-    font-size: 2rem;
-}
-
-.media > ul > li > i{
-    font-size: 2.5rem
-}
+/*   Start tag for the footer   */
 
 footer{
     height: 195px;
