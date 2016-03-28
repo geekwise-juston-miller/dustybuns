@@ -1,0 +1,373 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    width: 1349px;
+    height: 2071px;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 1349px;
+    height: 2071px;
+    display:block;
+    font-size: 1.6rem;
+    font-family: "Muli", sans-serif;    
+}
+
+header{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    display:block;
+    
+}
+
+.nav_wraper{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 15%;
+    display:block;
+    
+}
+
+.nav_container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+.nav_container > div{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 8rem;
+    font-weight: 900;
+    font-family: cursive;
+    font-style: oblique;
+    
+}
+
+.nav_container > div > a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.nav_container > div > a:hover{
+    color:goldenrod;
+    
+}
+
+.nav_container > div > a:hover{
+    cursor: pointer;
+    transition: 1.5s ease-out;
+}
+
+.nav_bar{
+    margin: 0 auto;
+    padding: 0;
+    width:80%;
+    height: 100%;
+    display: block;
+    float: left;
+    
+}
+
+.nav_bar > ul{
+    width: 80%;
+    height: 100%;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    
+}
+
+.nav_bar > ul > li{
+    margin: 0 auto;
+    padding: 0;
+    width: 15%;
+    height: 6rem;
+    text-align: center;
+    
+}
+
+.nav_bar > ul > ul > li{
+    margin: 0 auto;
+    padding: 0;
+    width: 20%;
+    height: 6rem;
+    left: -17rem;
+    text-align: center;
+    background-color: #fff;
+    display: block;
+    border-radius: 1rem;
+}
+
+.nav_bar > ul > li > a{
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    line-height: 7rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-family: "Muli", sans-serif;
+}
+
+/* Background color change on Hover */
+
+.nav_bar > ul > li > a:hover{
+    color: #bccf3d;
+    
+}
+
+
+/*  Hide Dropdowns  */
+
+.nav_bar > ul > ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Display Dropdowns on Hover */
+
+.nav_bar > ul > li:hover + ul{
+    display: block;
+    position: absolute;
+    
+}
+
+/*     Nav  Dropdown     */
+
+.nav_bar > ul > ul > li{
+    min-width: 17rem;
+    float: none;
+    display: list-item;
+    position: relative;
+    
+}
+
+.nav_bar > ul > ul > li > a{
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    line-height: 6rem;
+    text-decoration: none;
+    color: #000;
+    font-family: "Muli", sans-serif;
+    
+}
+
+.bg_img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 1335px;
+    height: 529px;
+    background-image: url("http://dustybuns.com/wp-content/uploads/2015/02/sfbistro_copy1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.bg_img > h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 18rem;
+    font-size: 6rem;
+    font-family: "Muli", sans-serif;
+    
+}
+
+/*   end nav bar section   */
+
+/*  start of main section  */
+
+main{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 1375px;
+    
+}
+
+.text_img_wrap{
+    display: block;
+    margin: 0 auto;
+    padding: 4rem 0 0 0;
+    width: 100%;
+    height: 600px;
+}
+
+.text_img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    height: 90%;
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.text_img > img{
+    float: left;
+    margin: 0 3rem 0 0; 
+}
+
+.text_img > h3{
+    margin: 0;
+    padding: 0;
+    color: #bccf3d;
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 1.1;
+    
+}
+
+.sider_wrap{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 649px;
+    background-color: #bccf3d;
+}
+
+.side_container{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100%:
+}
+
+.Side_container > h1{
+    text-align: center;
+    font-family: cursive;
+    color: #fff;
+    font-size: 6rem;
+    padding: 2rem 0 0 0;
+    
+}
+
+.sider{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height:100%;
+}
+
+.box{
+    display: block;
+    margin: 0 3.5rem auto;
+    padding: 0;
+    height: 432px;
+    width: 360px;
+    float: left;
+    font-size: 1.4rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.box > img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 360px;
+    height: 240px;
+}
+
+.box > a{
+    display: inline-block;
+    margin: 3rem 0 3rem 2.5rem;
+    padding:0;
+    height: auto;
+    width: 100%;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #ffc300;
+}
+
+.box > span{
+    margin-left: 3rem;
+}
+
+/*   Start tag for the footer   */
+
+footer{
+    height: 195px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 7rem 0 0 0;
+    display: block;
+    background-image:url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
+    opacity: .9;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 4rem;
+    
+    
+}
+
+.outtro{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 20%;
+    float: left;
+    font-size: 1.8rem;
+    color: darkgoldenrod;
+    text-shadow: 1rem 1rem 1rem #000;
+    font-weight: 900;
+}
+
+.outtro > a{
+    font-size: 4rem;
+    font-style: oblique;
+    color: #FFF;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.footer_text{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 70%;
+    float: left;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    font-weight: 900;
+    text-shadow: 1rem 1rem 1rem #000;
+}
