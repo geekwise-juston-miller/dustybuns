@@ -22,7 +22,7 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 14.6%;
+    height: 14.1%;
     display:block;
     
 }
@@ -293,10 +293,11 @@ main{
 
 .top_right_fa_icons{
     display: block;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     height: 232px;
     width: 847px;
+    
 }
 
 .top_right_fa_icons > ul > li{
@@ -306,11 +307,34 @@ main{
     list-style-type: none;
     float: left;
     background-color: #bccf3d;
+    
 }
 
 .top_right_fa_icons > ul > li:hover{
     transition: background-color 0.3s;
     background-color: #fff;
+  
+}
+
+.top_right_fa_icons > ul > li > a{
+    text-decoration: none;
+    
+}
+
+.top_right_fa_icons > ul > li > a > i{
+    display: block;
+    font-size: 3.5rem;
+    color: #fff;
+    padding-top: 6rem;
+    
+}
+
+.top_right_fa_icons > ul > li > a > span{
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
