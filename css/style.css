@@ -538,7 +538,7 @@ main{
 }
 
 footer{
-    height: 195px;
+    height: 140px;
     width: 100%;
     margin: 0 auto;
     padding: 7rem 0 0 0;
@@ -551,7 +551,7 @@ footer{
     line-height: 3rem;
     background-blend-mode: multiply;
     width: 100%;
-    opacity: .9;
+    opacity: .7;
     background-color: grey;
     
 }
@@ -560,32 +560,39 @@ footer{
     display: block;
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 20%;
+    height: auto;
+    width: 30%;
     float: left;
-    font-size: 2rem;
-    color: darkgoldenrod;
-    text-shadow: 1rem 1rem 1rem #000;
-    font-weight: 900;
+    
 }
 
 .outtro > a{
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-style: oblique;
+    font-family: cursive;
     color: #FFF;
-    opacity: 1;
+    font-weight: 600;
     text-decoration: none;
 }
+
+.outtro > span{
+    font-size: 1.8rem;
+    color: #ffc300;
+    font-weight: bold;
+    font-weight: 400;
+    
+}
+
 
 .footer_text{
     display: block;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: auto;
     width: 70%;
     float: left;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #FFFFFF;
-    font-weight: 900;
-    text-shadow: 1rem 1rem 1rem #000;
+    font-weight: 400;
+    text-align: center;
 }
