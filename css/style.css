@@ -139,12 +139,27 @@ header{
     line-height: 6rem;
     text-decoration: none;
     color: #000;
-/*    text-shadow: .2rem .2rem .2rem #000;*/
     font-family: "Muli", sans-serif;
     
 }
 
 /*   end nav bar section   */
+
+
+/*   <Hr> line size sm and lrg  */
+
+.sm_line{
+    width: 60px;
+    border-color: #fff;
+    
+}
+
+.lrg_line{
+    width: 100px;
+    border-color: #fff;
+}
+
+
 
 
 /*    text logo in header    */
@@ -296,7 +311,7 @@ main{
     padding: 0;
     width: 1170px;
     height: 1040px;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     
 }
 
@@ -331,16 +346,22 @@ main{
     height: 100%;
     float:left;
     text-align: center;
-    line-height: 5rem;
-/*    text-shadow: .2rem .2rem .2rem #000;*/
+    line-height: 3rem;
+    text-decoration-line: none;
 
 }
 
-.style_font{
+.anchor_style_A{
     color: #fff;
     text-decoration: none;
     
 }
+
+.anchor_style_B{
+    text-decoration: none;
+    
+}
+
 
 .box2{
     display: block;
@@ -374,7 +395,6 @@ main{
     float:left;
     text-align: center;
     line-height: 4rem;
-/*    text-shadow: .2rem .2rem .2rem #000;*/
 
 }
 
@@ -431,7 +451,6 @@ main{
     float: left;
     background-color:#ffc300;
     color: #fff;
-/*    text-shadow: .2rem .2rem .2rem #000;*/
     text-decoration: none;
 
 }
@@ -446,7 +465,6 @@ main{
     float: left;
     background-color:#bccf3d;
     color: #fff;
-/*    text-shadow: .2rem .2rem .2rem #000;*/
     text-decoration: none;
 
     
@@ -530,8 +548,11 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    line-height: 4rem;
+    line-height: 3rem;
+    background-blend-mode: multiply;
+    width: 100%;
     opacity: .9;
+    background-color: grey;
     
 }
 
