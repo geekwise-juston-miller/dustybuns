@@ -322,19 +322,21 @@ main{
 /*   Start tag for the footer   */
 
 footer{
-    height: 195px;
+    height: 125px;
     width: 100%;
     margin: 0 auto;
     padding: 7rem 0 0 0;
     display: block;
     background-image:url(http://dustybuns.com/wp-content/themes/highgrove/img/bg-footer.jpg);
-    opacity: .9;
     background-size:cover;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    line-height: 4rem;
-    
+    line-height: 3rem;
+    background-blend-mode: multiply;
+    width: 100%;
+    opacity: .9;
+    background-color: grey;
     
 }
 
@@ -342,32 +344,38 @@ footer{
     display: block;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: auto;
     width: 20%;
     float: left;
-    font-size: 1.8rem;
-    color: darkgoldenrod;
-    text-shadow: 1rem 1rem 1rem #000;
-    font-weight: 900;
+    
 }
 
 .outtro > a{
-    font-size: 4rem;
+    font-size: 3rem;
     font-style: oblique;
+    font-family: cursive;
     color: #FFF;
-    opacity: 1;
+    font-weight: 600;
     text-decoration: none;
+}
+
+.outtro > span{
+    font-size: 1.4rem;
+    color: #ffc300;
+    font-weight: bold;
+    font-weight: 400;
+    
 }
 
 .footer_text{
     display: block;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: auto;
     width: 70%;
     float: left;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #FFFFFF;
-    font-weight: 900;
-    text-shadow: 1rem 1rem 1rem #000;
+    font-weight: 400;
+    
 }
